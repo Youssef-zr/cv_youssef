@@ -1,0 +1,21 @@
+body{
+    /* background:#eee; */
+    font-family: 'Cairo', sans-serif;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
+h3.border{
+    border-left: none !important;
+    border-right: none !important;
+    background:#2980b9;
+    color:#fff
+}
+
+.box-content ul li p{
+    margin-bottom: 5px !important;
+    text-transform: capitalize;
+}
+.text-underline{
+    text-decoration: underline;
+}
