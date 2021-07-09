@@ -11,6 +11,16 @@ h3.border{
     background:#2980b9;
     color:#fff
 }
+.header{
+    margin-bottom: 70px;
+}
+.image{
+    width: 130px;
+    height:100px
+}
+.image img{
+    max-width: 100%;
+}
 
 .box-content ul li p{
     margin-bottom: 5px !important;
@@ -18,4 +28,10 @@ h3.border{
 }
 .text-underline{
     text-decoration: underline;
+}
+
+.download{
+    position: fixed;
+    right:20px;
+    bottom:20px;
 }
