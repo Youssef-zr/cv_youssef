@@ -1,8 +1,17 @@
 body {
   /* background:#eee; */
   font-family: "Cairo", sans-serif;
-  /* background: url('/img/bg-abstract.jpg') no-repeat center; */
-  background-size: cover;
+  overflow: visible;
+}
+canvas{
+  position:fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height:100vh !important;
+  width:100% !important;
+  overflow:visible;
 }
 .text-capitalize {
   text-transform: capitalize;
