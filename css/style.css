@@ -1,37 +1,112 @@
-body{
-    /* background:#eee; */
-    font-family: 'Cairo', sans-serif;
+body {
+  /* background:#eee; */
+  font-family: "Cairo", sans-serif;
+  /* background: url('/img/bg-abstract.jpg') no-repeat center; */
+  background-size: cover;
 }
-.text-capitalize{
-    text-transform: capitalize;
+.text-capitalize {
+  text-transform: capitalize;
 }
-h3.border{
-    border-left: none !important;
-    border-right: none !important;
-    background:#2980b9;
-    color:#fff
+h3.border {
+  border-left: none !important;
+  border-right: none !important;
+  background: var(--main-background);
+  color: #fff;
 }
-.header{
-    margin-bottom: 70px;
+.header {
+  margin-bottom: 70px;
 }
-.image{
-    width: 130px;
-    height:100px
-}
-.image img{
-    max-width: 100%;
+.image {
+  width: 130px;
+  height: 100px;
 }
 
-.box-content ul li p{
+.image img {
+  max-width: 100%;
+  border-color: var(--main-background);
+}
+
+.box-content ul li p {
+  margin-bottom: 5px !important;
+  margin-top:5px;
+  text-transform: capitalize;
+}
+.text-underline {
+  text-decoration: underline;
+}
+
+.download {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+:root {
+  --main-background: #00a8ff !important;
+}
+html {
+  scrollbar-color: var(--main-background) #fff !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: var(--main-color, #07f) #fff;
+  scrollbar-width: thin;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+::selection {
+  background-color: var(--main-color, #07f);
+  color: #fff;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--main-background, #fff);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--main-color, #07f);
+}
+::-webkit-scrollbar-thumb:hover {
+  border: 1px solid #fff;
+}
+hr {
+  width: 100%;
+  border-color: #ddd;
+}
+
+.download .btn {
+  background: var(--main-background);
+  color: #fff;
+  transition: ease 0.4s;
+  border-color: #fff;
+}
+.download .btn:hover {
+    background: #fff;
+    color: var(--main-background);
+    border-color: var(--main-background);
+}
+
+p {
+  color: #333;
+}
+
+i.fa-check,i.fa-square,i.fa-circle {
+  color: var(--main-background);
+  font-size: 15px;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+
+.box-heading h6{
+    color:#2C3A47;
     margin-bottom: 5px !important;
-    text-transform: capitalize;
-}
-.text-underline{
-    text-decoration: underline;
-}
-
-.download{
-    position: fixed;
-    right:20px;
-    bottom:20px;
 }
