@@ -1,7 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --main-background: #ee5253 !important;
+}
 body {
   /* background:#eee; */
   font-family: "Cairo", sans-serif;
   overflow: visible;
+}
+
+.section-heading h3{
+  margin-bottom: 0;
+}
+.section-content{
+  background:#fff;
+  margin-bottom: 25px;
+  border: 1px solid var(--main-background);
+  border-top: none;
+  border-left-width: 4px;
+  border-right-width: 4px;
+  border-radius: 0 0 5px 5px;
+  padding-top:25px;
 }
 canvas{
   position:fixed;
@@ -50,9 +72,6 @@ h3.border {
   bottom: 20px;
 }
 
-:root {
-  --main-background: #00a8ff !important;
-}
 html {
   scrollbar-color: var(--main-background) #fff !important;
 }
