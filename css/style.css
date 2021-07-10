@@ -8,7 +8,7 @@ canvas{
   top:0;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 9;
   height:100vh !important;
   width:100% !important;
   overflow:visible;
@@ -118,4 +118,10 @@ ul li{
 .box-heading h6{
     color:#2C3A47;
     margin-bottom: 5px !important;
+}
+
+.link-portfolio
+{
+  position: relative;
+  z-index: 10;
 }
